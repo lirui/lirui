@@ -1,5 +1,7 @@
 #include <stdio.h>
-
+#ifdef FOO
+	#define 
+#endif
 int main(int argc, const char *argv[])
 {
 	int i;
